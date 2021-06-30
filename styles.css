@@ -1,0 +1,66 @@
+body {
+  background: linear-gradient(#e66465, #9198e5);
+}
+
+nav {
+  border: 3px solid gray;
+}
+.nav {
+  padding: 16px;
+  display: inline-block;
+  font-size: 24px;
+  color: white;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: 20% 1fr;
+}
+
+.profile-image-container{
+    padding: 16px;
+    width: 200px;
+    height: 200px;
+    border: 3px solid gray;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 16px auto;
+}
+
+.profile-image {
+  display: block;
+  width: 200px;
+  margin: auto;
+}
+
+.profile-name{
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.content{
+  border-left: 3px solid gray;
+}
+
+h1 {
+  padding: 16px;
+}
+
+.main-llama {
+  width: 300px;
+  float: left;
+  padding: 16px;
+}
+
+.gallery {
+  padding-top: 16px;
+}
+
+.gallery-card {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  padding: 16px;
+  margin: 8px;
+}
